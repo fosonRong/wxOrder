@@ -5,9 +5,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cache.annotation.EnableCaching;
 
-import java.util.Collection;
-import java.util.HashMap;
-
 @SpringBootApplication
 @MapperScan(basePackages = "com.imooc.dataobject.mapper")
 @EnableCaching
