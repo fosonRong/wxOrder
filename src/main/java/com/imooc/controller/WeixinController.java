@@ -10,6 +10,7 @@ import org.springframework.web.client.RestTemplate;
 /**
  * Created by 廖师兄
  * 2017-07-03 00:50
+ * sell/weixin/auth
  */
 @RestController
 @RequestMapping("/weixin")
