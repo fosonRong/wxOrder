@@ -12,7 +12,8 @@ spring:
     host: 193.112.65.205
     port: 6379
 server:
-  context-path: /sell
+  context-path: /sell #url 一级路径
+  port: 8080 #服务端口
 #logging:
 #  pattern:
 #    console: "%d - %msg%n"
@@ -44,8 +45,10 @@ mybatis:
   mapper-locations: classpath:mapper/*.xml
 
 # 又拍云服务 见 https://console.upyun.com/services/file/
+#UdZ5wJR8SXp4c4HrFaeefBe5jQbJNTeb
+#seller2.test.upcdn.net
 upyun:
   bucketName: XXX
-  userName: xxx
-  password: xxxx
+  userName: foson
+  password: q5134798
   imageHost: http://xxx.com/

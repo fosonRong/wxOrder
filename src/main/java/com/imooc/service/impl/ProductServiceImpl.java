@@ -20,6 +20,7 @@ import java.util.stream.Collectors;
 /**
  * Created by 廖师兄
  * 2017-05-09 17:31
+ *https://console.upyun.com/services/imge-cdn/domainsCdn/  图片由又拍云提供，CDN加速，数据库只存放ICON名称
  */
 @Service
 //@CacheConfig(cacheNames = "product")
